@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Cuprum);
+
+body{
+	background-color:;
+}
+table#calendar{
+	width:80vw; 
+	padding:0.1vw; 
+	text-align:center;
+	background-image:url('bg.jpg');
+	background-repeat:no-repeat;
+	background-size:1250px 800px;
+	color:hsla(191, 65%, 5%, 1);
+	border:none;
+	box-shadow:black;
+    user-select:none;
+    outline:none;
+}
+table th{
+  background:white;
+  background-size:1250px 500px;
+  padding:1.2vw;
+  border:none;
+  color:blue;
+}
+table tr{
+	padding:1vw;
+  transform: translate(0,0);
+}
+table td{
+	padding:1.5vw;
+  font-size:2vw;
+  color:black;
+  text-shadow:orange;
+  transition:all 1s ease;
+}
+table td:hover{
+	background:white;
+  border-radius:2px;
+	box-shadow: orange;
+  color:black;
+}
+.data{
+	width:80vw;
+	text-align:center;
+	display:inline-block;
+	background-image:url('tik.jpg');
+	box-shadow: orange;
+}
+#create, #reset{
+	border:none;
+	width:15vw;
+	padding:1.37vw;
+	color:#fff;
+	font-family: 'Cuprum', sans-serif;
+	font-weight:bold;
+  font-size:1.5vw;
+	background:	green;
+  user-select:none;
+  outline:none;
+  float:right;
+  margin:.2%;
+}
+#create:hover, #reset:hover{
+  box-shadow: 1px 0 0 0 hsla(197, 35%, 5%, .3);
+}
+#create:active, #reset:active{
+  user-select:none;
+  outline:none;
+}
+input[type=text]{ 
+	padding:1.2vw;
+  text-align:center;
+	border:none;
+	background: hsla(191, 55%, 95%,.2);
+	color:hsla(191, 65%, 5%, 1);
+	font-family: 'Cuprum', sans-serif;
+	font-weight:bold;
+  font-size:1.5vw;
+  width:15vw;
+  float:left;
+  margin:.5%;
+  user-select:none;
+  outline:none;
+}
+input:focus{
+  box-shadow: inset 2px 1px 1px 1px hsla(197, 35%, 5%, .1);
+}
+[placeholder]:focus::-webkit-input-placeholder { 
+	  color:hsla(191, 65%, 5%, 1);
+    user-select:none;
+    outline:none;
+}
+[placeholder]:focus::-moz-placeholder {
+	color:hsla(191, 65%, 5%, 1);
+  user-select:none;
+  outline:none;
+ }
